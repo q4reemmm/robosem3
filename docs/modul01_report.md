@@ -11,3 +11,11 @@
 | 6 | Waktu colcon build pertama | s | 3.687 |
 | 7 | Jumlah package terbangun | buah | 1 |
 | 8 | Commit hash | - | 8c3d212 |
+
+## Tabel 1.2 - Perbandingan bind mount vs named volume
+| Aspek | Bind mount `../src:/ws/src` | Named volume `ws_install` |
+|---|---|---|
+| Terlihat di host | Ya | Tidak (tersembunyi di internal Docker) |
+| Bertahan setelah `docker compose down` | Ya | Ya |
+| Cocok untuk kode sumber | Ya (agar bisa diedit di host) | Tidak |
+| Cocok untuk artefak build | Tidak (menghindari bentrok OS) | Ya (terisolasi di container) |
