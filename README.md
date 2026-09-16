@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Robotics TurtleBot3 - Modul 1
 
 Lingkungan pengembangan ROS 2 Humble menggunakan Docker.
@@ -10,3 +11,6 @@ Lingkungan pengembangan ROS 2 Humble menggunakan Docker.
 5. Di dalam container, jalankan node:
    source /ws/install/setup.bash
    ros2 run my_first_robot_package hello_robot
+=======
+# robosem3
+>>>>>>> 9e5006efb4fb2eb656aa6b90644b66232022019d
