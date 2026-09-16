@@ -1,4 +1,12 @@
+# Exclude build, install, and log folders at root and subfolders
 build/
 install/
 log/
-__pycache__/
+**/build/
+**/install/
+**/log/
+
+# Exclude Python compiled files & metadata
+**/__pycache__/
+*.pyc
+*.egg-info/
